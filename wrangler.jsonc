@@ -11,13 +11,21 @@
 		"nodejs_compat",
 		"global_fetch_strictly_public"
 	],
+	"d1_databases": [
+		{
+		"binding": "DB",
+		"database_name": "dm_db",
+		"database_id": "2a4d053e-f7ac-4b4a-b841-3b96e71a4d97"
+		}
+	],
 	"assets": {
 		// The path to the directory containing the `index.html` file to be served at `/`
 		"directory": "./public"
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
