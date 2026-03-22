@@ -1,8 +1,10 @@
+```
 #================>install modules
-#npm install
+npm install
 
 #================>Testing local
-#npm run dev
+npm run dev
 
 #================>Deploy into clouldflare
-#npm run deploy
+npm run deploy
+```
